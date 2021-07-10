@@ -1,0 +1,15 @@
+{
+  "name": "gof",
+  "version": "1.0.0",
+  "dependencies": {},
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "jest": "^27.0.6",
+    "rollup-plugin-terser": "^7.0.2"
+  },
+  "type": "module",
+  "scripts": {
+    "watch": "rollup -c --watch",
+    "test": "cross-env NODE_OPTIONS=--experimental-vm-modules npx jest"
+  }
+}
